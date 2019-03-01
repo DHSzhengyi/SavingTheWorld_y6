@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <title>Questions</title>
+  </head>
+
+  <body>
+    <link rel="stylesheet" type="text/css" href="quizqn.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <audio loop id="audio">
+      <source src="music.mp3" type="audio/ogg">
+      <embed src="music.mp3" autostart="true" loop="true" hidden="true">
+    </audio>
+
+    <button id="sound" onclick="document.getElementById('audio').play()">
+      <i class='fas fa-volume-up'></i></button>
+    <button id="sound" onclick="document.getElementById('audio').pause()">
+      <i class='fas fa-volume-mute'></i></button>
+
+      <h1>Question 1</h1>
+
+      <div id="timer">
+        <script src="timer.js"></script>
+      </div>
+
+      <!-- insert photos here-->
+      <p> photo </p>
+
+      <div id="choice">
+        <button class="button">correct</button></br>
+        <button class="button button2">incorrect</button></br>
+        <button class="button button3">incorrect</button></br>
+        <button class="button button4">incorrect</button></br>
+      </div>
+
+      <!-- direct to last page when user finishes the quiz-->
+      
+
+  </body>
+</html>
