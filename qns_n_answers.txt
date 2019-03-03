@@ -1,0 +1,139 @@
+*option marked with [R] is the correct answer*
+
+centre_for_tnl.jpg:
+  Level 2, beside Library [R]
+  Level 3, beside Art Room
+  Level 1, beside Humanities Room
+  Level 4, beside Black Box
+
+gsl.jpg:
+  General Science Lab, Wall facing SH blocks [R]
+  General Science Lab, Painting area
+  General Science Lab, Wall facing Bio Lab
+  General Science Lab, Wall facing Chem Lab
+
+gsl_2.jpg:
+  General Science Lab, Painting area [R]
+  General Science Lab, Wall facing SH blocks
+  General Science Lab, Wall facing Bio Lab
+  General Science Lab, Wall facing Chem Lab
+
+gsl_bench.jpg:
+  General Science Lab [R]
+  Beside Auditorium, near Scouts CCA Room
+  Beside Auditorium, near canteen
+  Outside General Office
+
+gsl_fountain.jpg:
+  General Science Lab [R]
+  Beside Hostel
+  Outside Auditorium
+  In front of Front Gate
+
+gsl_statue.jpg:
+  General Science Lab [R]
+  In front of Hostel
+  Beside canteen
+  Beside Basketball court
+
+lvl2_artarea.jpg:
+  Level 2, above Cafe [R]
+  Level 3, near PAC
+  Level 4, beside JH com Lab
+  Level 5, beside LT
+
+lvl2_artarea2.jpg:
+  Level 2, above Cafe [R]
+  Level 3, near PAC
+  Level 4, beside JH com Lab
+  Level 5, beside LT
+
+lvl3besideSH.jpg:
+  Level 3, beside Y5 Block [R]
+  Level 3, beside Art Room
+  Level 2, beside Y5 Block
+  Level 4, JH Upper Sec
+
+lvl3besideSH2.jpg:
+  Level 3, beside Y5 Block [R]
+  Level 3, beside Art Room
+  Level 2, beside Y5 Block
+  Level 4, JH Upper Sec
+
+lvl3staffroom_hotwater.jpg:
+  Level 3, Beside Staff Room [R]
+  Level 1, Canteen
+  Level 2, Beside Hall
+  Level 1, Outside field toilet
+
+lvl3walkway.jpg:
+  Level 3, SH-JH Walkway [R]
+  Level 2, SH-JH Walkway
+  Level 3, Walkway to Consultation area
+  Level 2, Walkway to Hall
+
+lvl4fan.jpg:
+  Level 4, beside JH com lab [R]
+  Level 2, Lower Sec block
+  Level 1, beside JH lift
+  Level 3, Upper Sec block
+
+lvl4freeaccesslab.jpg:
+  Level 4, beside SH com lab [R]
+  Level 4, beside JH com lab
+  Level 2, beside SH science lab
+  Level 1, General Science Lab
+
+lvl4scenary.jpg:
+  Level 4 [R]
+  Level 3
+  Level 5
+  Level 6
+
+lvl5dancestudio.jpg:
+  Level 5, beside LT 3 & 4 [R]
+  Level 6, beside LT 3 & 4
+  Level 4, beside Black box
+  Level 2, Music Atrium
+
+lvl5LTscenary.jpg:
+  Level 5, view from LT area [R]
+  Level 6, view from LT area
+  Level 5, view from Hostel
+  Level 4, view from JH com lab 
+
+newspaper.jpg:
+  Beside Heritage Room [R]
+  Beside BSP Room
+  Beside Humanities Room
+  Beside Maths Sphere
+
+outside_audi.jpg:
+  Beside Auditorium, near Scouts CCA Room [R]
+  Beside Auditorium, near canteen
+  General Science Lab
+  Outside General Office
+
+outside_audi_flower.jpg:
+  Beside Auditorium, near Canteen [R]
+  Beside Auditorium, near Scouts CCA Room
+  Outside Music Atrium
+  Outside General Office
+
+outside_humanities.jpg:
+  Outside Humanities Room [R]
+  Outside Heritage Room
+  Outside General Office
+  Level 4, Upper Sec Block
+
+sandwich.jpg:
+  Canteen, beside Stall 14 [R]
+  Canteen, beside Stall 16
+  Canteen, beside Stall 1
+  Cafe
+
+yute.jpg:
+  Outside BSP Room [R]
+  Outside Heritage Room
+  Outside General Office
+  Beside Auditorium
