@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
-    <!--<link rel="stylesheet" type="text/css" href="endgame.css">-->
+    <link rel="stylesheet" type="text/css" href="endgame.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <!--<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>-->
     <!--<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>-->
@@ -34,13 +34,12 @@
             <i class='fas fa-volume-mute'></i></button>
 
     <div id="questions">
-        <h1 id="qnNum">10</h1>
-        <div id="timerndisplay">10</div>
-        <div id="points">10</div>
-        <div id="score">10</div>
+        <h1 id="qnNum"></h1>
+        <div id="timerndisplay"></div>
+        <div id="points"></div>
+        <div id="score"></div>
         <div id="image">
-          <img src="dhs-bgm.jpg">
-          <!-- <img id="qnimg" height="200px"> -->
+          <img id="qnimg" height="200px">
         </div>
 
         <div class="Qn-div"><h3><span id="Q&A"></span></h3></div>
@@ -61,9 +60,6 @@
         <p> You have scored <span id="finalscore"></span> </p>
         <p> Your highest score is <span id="highscore"></span> </p>
         <p> Your current ranking : <!-- insert ranking --> </p>
-
-        <!-- Display Leaderboard -->
-
 
         <!-- Rate the quiz -->
         <!-- code taken from: https://codepen.io/anon/pen/pYgZjo -->
@@ -96,10 +92,12 @@
 
       <!-- messae telling users they have successfully indicated the ratings-->
       <!-- ERROR: not responsive, width needs to change-->
-      <div class='success-box'>
+      <div id="success">
+        <div class='success-box'>
         <div class='clearfix'></div>
         <div class='text-message'></div>
         <div class='clearfix'></div>
+        </div>
       </div>
 
     </section>
