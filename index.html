@@ -1,62 +1,45 @@
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Where @ DHS</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Where@DHS</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
+    <!--    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>-->
+    <!--    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>-->
+    <!--    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />-->
+    <!--</head>-->
+    <body>
+        <div id="body">
+            <h1>Where At DHS?</h1></br>
+            <h2>Are You Ready for the Quiz?</h2>
 
-  <body>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-
-    <div id="body">
-      <h1>Where @ DHS!</h1>
-      <h2>Are You Ready for the Quiz?</h2>
-
-      <!--How to Play Section-->
-      <div class="box">
-        <a class="button" href="#popup1">How to Play</a>
-      </div>
-
-      <div id="popup1" class="overlay">
-	       <div class="popup">
-		         <a class="close" href="#">&times;</a>
-		           <div class="content">
-
-                 <!-- Game Rationale-->
-                 For the public, </br> this app aims to help you understand
-                 Dunman High School better! Where are the special places
-                 in this school, what are the atmosphere here etc! </br>
-                 Hopefully you can gain some knowledge about this Home away from the Home!
-               </br></br>
-                 For the students, just in case you have missed out some places in
-                 Dunman High, we have prepared this app to allow you to explore more!
-               </br></br>
-
-               <!-- Game Rules-->
-			              Rules:</br>
-                    There will be total of 10 questions.</br>
-                    Choose the correct answer before time runs out!</br>
-                    Each correct answer will give you one point!</br>
-                    While wrong answer or no answer you will not get any point!
-                    </br></br>
-                    Now, let's see how many points you can get! :)
-		           </div>
-	       </div>
-      </div>
-      <!--End of How to Play-->
-
-      <div id="startbutton">
-        <button class="button2">
-          <a href="loginpage.html">Login with
-            <div class="fa fa-google"></div>
-          </a>
-        </button>
-      </div>
-
-    </div>
-
-  </body>
+            <!-- How to play button -->
+            <div class="box">
+                <a class="button" href="#popup1">How to Play</a>
+            </div>
+            <!-- Google Login button -->
+            <div id="sign-in">
+                <div id="firebaseui-auth-container"></div>
+            </div>
+            <!--  How to play modal -->
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Rules:<br>
+                        There will be total of 10 questions.<br>
+                        Choose the correct answer before time runs out!<br>
+                        Each correct answer will give you one point!<br>
+                        While wrong answer or no answer you will not get any point!<br>
+                        <br>
+                        Now, let's see how many points you can get! :)<br><br>
+                        Hopefully this will help you better understand DUNMAN HIGH SCHOOL!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

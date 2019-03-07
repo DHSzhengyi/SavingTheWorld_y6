@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Where@DHS</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
+    <!--<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>-->
+    <!--<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>-->
+    <!--<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />-->
+</head>
+<body>
+    <div id="body">
+        <!--<button type="button" onclick="googleSignIn()">Google Sign In</button>-->
+        <h1>Welcome <span id="name"></span></h1><br>
+        <h2>Your highscore is <span id="myhighscore"></span></h2>
+
+        <div id="howtoplay">
+            <a href="#popup2">
+              <i class="material-icons">help_outline</i></a>
+        </div>
+
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Rules:<br>
+                    There will be total of 10 questions.<br>
+                    Choose the correct answer before time runs out!<br>
+                    Each correct answer will give you one point!<br>
+                    While wrong answer or no answer you will not get any point!<br>
+                    <br>
+                    Now, let's see how many points you can get! :)<br><br>
+                    Hopefully this will help you better understand DUNMAN HIGH SCHOOL!
+                </div>
+            </div>
+        </div>
+
+        <div id="body2">
+            <div id="playBtn">Play</div>
+        </br>
+            <div id="logout">Logout</div>
+            <button id="adminBtn">Admin</button>
+        </div>
+
+        <!--  How to play modal -->
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Rules:</br>
+                    There will be total of 10 questions.</br>
+                    Choose the correct answer before time runs out!</br>
+                    Each correct answer will give you one point!</br>
+                    While wrong answer or no answer you will not get any point!</br>
+                    </br>
+                    Now, let's see how many points you can get! :)
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--<script src="config.js"></script>-->
+    <!--<script src="home.js"></script>-->
+</body>
+</html>

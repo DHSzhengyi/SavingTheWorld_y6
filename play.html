@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+
+    <title>Where@DHS</title>
+    <!--Comment out one css to view the 1 page. Ctrl / for fast comment. -->
+    <link rel="stylesheet" type="text/css" href="play.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+    <!--<link rel="stylesheet" type="text/css" href="endgame.css">-->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!--<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>-->
+    <!--<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>-->
+    <!--<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />-->
+
+</head>
+<body>
+    <div id="body">
+
+    <!-- Block for Play Game-->
+    <div id="playgame">
+        <audio loop id="audio">
+            <source src="bgm.mp3" type="audio/ogg">
+            <embed src="bgm.mp3" autostart="true" loop="true" hidden="true">
+        </audio>
+
+
+        <button id="sound" onclick="document.getElementById('audio').play()">
+            <i class='fas fa-volume-up'></i></button>
+        <button id="sound" onclick="document.getElementById('audio').pause()">
+            <i class='fas fa-volume-mute'></i></button>
+
+    <div id="questions">
+        <h1 id="qnNum">10</h1>
+        <div id="timerndisplay">10</div>
+        <div id="points">10</div>
+        <div id="score">10</div>
+        <div id="image">
+          <img src="dhs-bgm.jpg">
+          <!-- <img id="qnimg" height="200px"> -->
+        </div>
+
+        <div class="Qn-div"><h3><span id="Q&A"></span></h3></div>
+        <div id="choices">
+            <div class="choice">One</div>
+            <div class="choice">Two</div>
+            <div class="choice">Three</div>
+            <div class="choice">Four</div>
+        </div>
+        <div id="nextQnBtn">Next Question</div>
+    </div>
+  </div>
+    <!-- Block for end game -->
+    <div id="endgame">
+        <h1>Game Over</h1>
+
+        <!-- Display User Info-->
+        <p> You have scored <span id="finalscore"></span> </p>
+        <p> Your highest score is <span id="highscore"></span> </p>
+        <p> Your current ranking : <!-- insert ranking --> </p>
+
+        <!-- Display Leaderboard -->
+
+
+        <!-- Rate the quiz -->
+        <!-- code taken from: https://codepen.io/anon/pen/pYgZjo -->
+        <header class='header text-center'>
+          <p>Please help us by giving us your feedbacks!</p>
+        </header>
+
+        <section class='rating-widget'>
+
+          <!-- Rating Stars Box -->
+      <div class='rating-stars text-center'>
+        <ul id='stars'>
+          <li class='star' title='Very Poor' data-value='1'>
+            <i class='fa fa-star fa-fw'></i>
+          </li>
+          <li class='star' title='Poor' data-value='2'>
+            <i class='fa fa-star fa-fw'></i>
+          </li>
+          <li class='star' title='Pretty Good' data-value='3'>
+            <i class='fa fa-star fa-fw'></i>
+          </li>
+          <li class='star' title='Excellent' data-value='4'>
+            <i class='fa fa-star fa-fw'></i>
+          </li>
+          <li class='star' title='WOW!!!' data-value='5'>
+            <i class='fa fa-star fa-fw'></i>
+          </li>
+        </ul>
+      </div>
+
+      <!-- messae telling users they have successfully indicated the ratings-->
+      <!-- ERROR: not responsive, width needs to change-->
+      <div class='success-box'>
+        <div class='clearfix'></div>
+        <div class='text-message'></div>
+        <div class='clearfix'></div>
+      </div>
+
+    </section>
+        <!-- End of Section rating-->
+
+        <!-- Give feedbacks -->
+        <div id="feedback-main">
+          <div id="feedback-div">
+            <form action="contact.php" method="post" class="form" id="feedback-form1" name="form1" enctype="multipart/form-data">
+
+
+              <p class="text">
+                <textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Help us improve. Thank You!"></textarea>
+              </p>
+
+              <div class="feedback-submit">
+                <input type="submit" value="SEND" id="feedback-button-black" />
+                <div class="feedback-ease"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button>
+        <!--End Feedback Section -->
+
+        <!-- Try again -->
+        <div id="tryagain">
+          <button class="button">Try Again</button>
+        </div>
+        <div id="gohome">
+          <button class="button">Home</button>
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+</html>

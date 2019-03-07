@@ -6,26 +6,18 @@ body {
 }
 
 h1 {
-  color: #F5F5F5;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 250;
-  font-size: 2.5em;
-  letter-spacing: -1px;
-  line-height: 1.0em;
-  margin: auto;
-  text-align: center;
-  padding: 50px 20px;
+  color: #0F1626;
+  font-size: 4vw;
+  font-family: 'Cabin Sketch';
+  width: 100%;
+  display: inline-block;
 }
 p {
-  color: #F5F5F5;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  letter-spacing: -1px;
-  line-height: 1.0em;
-  margin:0px;
-  text-align: center;
-  padding: 10px 10px;
+  color: #0F1626;
+  font-size: 3vw;
+  font-family: 'Cabin Sketch';
+  width: 100%;
+  display: inline-block;
 }
 
 /* /// RATING SECTION /// */
@@ -283,5 +275,8 @@ a {
   line-height: 1.0em;
 }
 #tryagain {
+  text-align: center;
+}
+#home {
   text-align: center;
 }

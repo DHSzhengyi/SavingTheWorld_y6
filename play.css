@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+body {
+  background: url(dhs-bgm2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+}
+
+/* #endgame {
+    display: none;
+} */
+i {
+  font-size: 20px;
+}
+#sound {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  padding: 5px 13px;
+}
+#questions {
+  text-align: center;
+}
+h1 {
+  color: #0F1626;
+  font-size: 3vw;
+  font-family: 'Cabin Sketch';
+  width: 100%;
+  display: inline-block;
+}
+
+#timerndisplay, #points {
+  color: #0F1626;
+  font-size: 3vw;
+  font-family: 'Cabin Sketch';
+  width: 100%;
+  display: inline-block;
+}
+
+#score {
+    position: absolute;
+    right: 3vw;
+    top: 3vw;
+    font-size: 3vw;
+    font-family: 'Montserrat Alternates';
+    color: black;
+    font-weight: 500;
+}
+img {
+    width: 40vw;
+    height: 30vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.choice {
+  text-align: center;
+  width: 35vw;
+  height: 5vw;
+  font-size: 2vw;
+  font-family: 'Montserrat Alternates';
+  cursor: pointer;
+  border: 2px solid #0F1626;
+  background-color: white;
+  display: block;
+  border-radius: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+.choice p {
+  text-align: center;
+  margin: auto;
+}
+
+/* #choices > div:nth-child(even)  {
+    color: white;
+    background: black;
+} */
+/* #choices {
+    display: none;
+} */
+.Qn-div {
+    color: white;
+    text-align: center;
+}
+.correctStyle {
+    background: green;
+    color: white;
+}
+.wrongStyle {
+    background: red;
+    color: white;
+}
+#nextQnBtn {
+    /* display: none; */
+    font-family: 'Cabin Sketch';
+    text-align: center;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 200px;
+    font-size: 2vw;
+    cursor: pointer;
+    border: 2px black;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+
+}
